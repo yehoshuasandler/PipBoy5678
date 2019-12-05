@@ -1,0 +1,44 @@
+{
+  "name": "pipboy5678",
+  "author": "Joshua Shoemaker",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "electron-store": "^5.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "2.1.8",
+    "redux": "^4.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "dev": "nf start",
+    "pack": "build --dir"
+  },
+  "main": "src/electron-starter.js",
+  "homepage": "./",
+  "build": {
+    "appId": "com.takethisstudios.pipboy5678",
+    "productName": "pipboy5678"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "electron": "^4.2.12",
+    "electron-builder": "^20.39.0",
+    "foreman": "^3.0.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

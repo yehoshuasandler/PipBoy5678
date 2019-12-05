@@ -1,0 +1,9 @@
+.BottomStatus {
+  position: fixed;
+  height: 42px;
+  top: 458px;
+  color: rgb(0, 255, 0);
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
